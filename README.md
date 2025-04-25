@@ -13,6 +13,9 @@ To run the project in development mode:
 ```bash
 make run
 ```
+Default admin user:
+- username: admin
+- password: admin
 
 This will:
 - Build the Docker image
