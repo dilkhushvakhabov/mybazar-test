@@ -1,0 +1,14 @@
+.venv
+.pytest_cache
+__pycache__
+.git
+.gitignore
+.DS_Store
+.env
+.env-example
+
+# sqlite
+db.sqlite3
+
+# compose files
+docker-compose.yml

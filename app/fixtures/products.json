@@ -1,0 +1,347 @@
+[
+    {
+      "model": "app.category",
+      "pk": 1,
+      "fields": {
+        "name": "Electronics",
+        "created_at": "2023-10-27T10:00:00Z",
+        "updated_at": "2023-10-27T10:00:00Z"
+      }
+    },
+    {
+      "model": "app.category",
+      "pk": 2,
+      "fields": {
+        "name": "Clothing",
+        "created_at": "2023-10-27T10:00:01Z",
+        "updated_at": "2023-10-27T10:00:01Z"
+      }
+    },
+    {
+      "model": "app.category",
+      "pk": 3,
+      "fields": {
+        "name": "Home Goods",
+        "created_at": "2023-10-27T10:00:02Z",
+        "updated_at": "2023-10-27T10:00:02Z"
+      }
+    },
+    {
+      "model": "app.category",
+      "pk": 4,
+      "fields": {
+        "name": "Books",
+        "created_at": "2023-10-27T10:00:03Z",
+        "updated_at": "2023-10-27T10:00:03Z"
+      }
+    },
+    {
+      "model": "app.category",
+      "pk": 5,
+      "fields": {
+        "name": "Groceries",
+        "created_at": "2023-10-27T10:00:04Z",
+        "updated_at": "2023-10-27T10:00:04Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 1,
+      "fields": {
+        "name": "Laptop Pro",
+        "description": "High-performance laptop for professionals.",
+        "price": "1499.99",
+        "category": 1,
+        "created_at": "2023-10-27T10:01:00Z",
+        "updated_at": "2023-10-27T10:01:00Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 2,
+      "fields": {
+        "name": "Smartphone X",
+        "description": "Latest generation smartphone with advanced camera.",
+        "price": "999.00",
+        "category": 1,
+        "created_at": "2023-10-27T10:01:01Z",
+        "updated_at": "2023-10-27T10:01:01Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 3,
+      "fields": {
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling over-ear headphones.",
+        "price": "249.50",
+        "category": 1,
+        "created_at": "2023-10-27T10:01:02Z",
+        "updated_at": "2023-10-27T10:01:02Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 4,
+      "fields": {
+        "name": "4K Monitor",
+        "description": "27-inch 4K UHD monitor.",
+        "price": "350.00",
+        "category": 1,
+        "created_at": "2023-10-27T10:01:03Z",
+        "updated_at": "2023-10-27T10:01:03Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 5,
+      "fields": {
+        "name": "Mechanical Keyboard",
+        "description": "RGB backlit mechanical keyboard.",
+        "price": "120.75",
+        "category": 1,
+        "created_at": "2023-10-27T10:01:04Z",
+        "updated_at": "2023-10-27T10:01:04Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 6,
+      "fields": {
+        "name": "Cotton T-Shirt",
+        "description": "Plain cotton t-shirt, various colors.",
+        "price": "19.99",
+        "category": 2,
+        "created_at": "2023-10-27T10:02:00Z",
+        "updated_at": "2023-10-27T10:02:00Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 7,
+      "fields": {
+        "name": "Denim Jeans",
+        "description": "Classic blue denim jeans.",
+        "price": "59.95",
+        "category": 2,
+        "created_at": "2023-10-27T10:02:01Z",
+        "updated_at": "2023-10-27T10:02:01Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 8,
+      "fields": {
+        "name": "Winter Jacket",
+        "description": "Warm, waterproof winter jacket.",
+        "price": "120.00",
+        "category": 2,
+        "created_at": "2023-10-27T10:02:02Z",
+        "updated_at": "2023-10-27T10:02:02Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 9,
+      "fields": {
+        "name": "Running Shoes",
+        "description": "Lightweight running shoes.",
+        "price": "85.50",
+        "category": 2,
+        "created_at": "2023-10-27T10:02:03Z",
+        "updated_at": "2023-10-27T10:02:03Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 10,
+      "fields": {
+        "name": "Leather Belt",
+        "description": "Genuine leather belt.",
+        "price": "35.00",
+        "category": 2,
+        "created_at": "2023-10-27T10:02:04Z",
+        "updated_at": "2023-10-27T10:02:04Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 11,
+      "fields": {
+        "name": "Coffee Maker",
+        "description": "12-cup drip coffee maker.",
+        "price": "45.00",
+        "category": 3,
+        "created_at": "2023-10-27T10:03:00Z",
+        "updated_at": "2023-10-27T10:03:00Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 12,
+      "fields": {
+        "name": "Blender",
+        "description": "High-speed blender for smoothies.",
+        "price": "79.99",
+        "category": 3,
+        "created_at": "2023-10-27T10:03:01Z",
+        "updated_at": "2023-10-27T10:03:01Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 13,
+      "fields": {
+        "name": "Towel Set",
+        "description": "Set of 4 cotton bath towels.",
+        "price": "29.95",
+        "category": 3,
+        "created_at": "2023-10-27T10:03:02Z",
+        "updated_at": "2023-10-27T10:03:02Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 14,
+      "fields": {
+        "name": "Dinnerware Set",
+        "description": "16-piece ceramic dinnerware set.",
+        "price": "65.00",
+        "category": 3,
+        "created_at": "2023-10-27T10:03:03Z",
+        "updated_at": "2023-10-27T10:03:03Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 15,
+      "fields": {
+        "name": "Desk Lamp",
+        "description": "Adjustable LED desk lamp.",
+        "price": "24.50",
+        "category": 3,
+        "created_at": "2023-10-27T10:03:04Z",
+        "updated_at": "2023-10-27T10:03:04Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 16,
+      "fields": {
+        "name": "The Great Novel",
+        "description": "Bestselling fiction novel.",
+        "price": "14.99",
+        "category": 4,
+        "created_at": "2023-10-27T10:04:00Z",
+        "updated_at": "2023-10-27T10:04:00Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 17,
+      "fields": {
+        "name": "History of the World",
+        "description": "Comprehensive history book.",
+        "price": "29.95",
+        "category": 4,
+        "created_at": "2023-10-27T10:04:01Z",
+        "updated_at": "2023-10-27T10:04:01Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 18,
+      "fields": {
+        "name": "Cookbook: Quick Meals",
+        "description": "Recipes for easy and quick meals.",
+        "price": "19.99",
+        "category": 4,
+        "created_at": "2023-10-27T10:04:02Z",
+        "updated_at": "2023-10-27T10:04:02Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 19,
+      "fields": {
+        "name": "Sci-Fi Adventure",
+        "description": "An epic space adventure.",
+        "price": "16.50",
+        "category": 4,
+        "created_at": "2023-10-27T10:04:03Z",
+        "updated_at": "2023-10-27T10:04:03Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 20,
+      "fields": {
+        "name": "Programming Guide",
+        "description": "Introduction to Python programming.",
+        "price": "35.00",
+        "category": 4,
+        "created_at": "2023-10-27T10:04:04Z",
+        "updated_at": "2023-10-27T10:04:04Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 21,
+      "fields": {
+        "name": "Apples (1kg)",
+        "description": "Fresh organic apples.",
+        "price": "3.99",
+        "category": 5,
+        "created_at": "2023-10-27T10:05:00Z",
+        "updated_at": "2023-10-27T10:05:00Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 22,
+      "fields": {
+        "name": "Milk (1L)",
+        "description": "Organic whole milk.",
+        "price": "1.80",
+        "category": 5,
+        "created_at": "2023-10-27T10:05:01Z",
+        "updated_at": "2023-10-27T10:05:01Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 23,
+      "fields": {
+        "name": "Whole Wheat Bread",
+        "description": "Sliced whole wheat bread loaf.",
+        "price": "2.50",
+        "category": 5,
+        "created_at": "2023-10-27T10:05:02Z",
+        "updated_at": "2023-10-27T10:05:02Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 24,
+      "fields": {
+        "name": "Eggs (Dozen)",
+        "description": "Free-range large eggs.",
+        "price": "4.20",
+        "category": 5,
+        "created_at": "2023-10-27T10:05:03Z",
+        "updated_at": "2023-10-27T10:05:03Z"
+      }
+    },
+    {
+      "model": "app.product",
+      "pk": 25,
+      "fields": {
+        "name": "Pasta (500g)",
+        "description": "Italian spaghetti pasta.",
+        "price": "1.50",
+        "category": 5,
+        "created_at": "2023-10-27T10:05:04Z",
+        "updated_at": "2023-10-27T10:05:04Z"
+      }
+    }
+  ]
